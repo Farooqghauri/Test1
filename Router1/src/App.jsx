@@ -7,11 +7,11 @@ import Contactus from "./Pages/Contactus/Contactus";
 function App() {
   return (
     <>
-      <Router>
+      <Router basename="/Test1">
         <Navbar />
         <Routes>
           
-            <Route path="/" element={<Home />}/>  
+            <Route path="/Test1" element={<Home />}/>  
             <Route path="/contactus" element={<Contactus />}/>
             
           
